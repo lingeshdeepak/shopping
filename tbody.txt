@@ -1,0 +1,63 @@
+//product 
+<!-- <tbody>
+<?php foreach($posts as $post): ?>
+        <tr>
+        <td class="post-data"><?php echo $post['productname'];?></td>
+        <td class="post-data">
+        <?php foreach( $categories as $result=>$category): ?>
+        <?php if( $result == $post['category'] ): ?><?php echo $category ?><?php endif; ?>
+        <?php endforeach?>
+        </td>
+
+        <td class="post-data">
+        <?php foreach( $subcategory as $subcategories): ?>
+        <?php if( $post['subcategory'] == $subcategories['id'] ): ?><?php echo $subcategories['subcategoryname'] ?><?php endif; ?>
+        <?php endforeach?>
+        </td>
+        <td class="post-data"><?php echo $post['quantity'];?></td>
+        <td class="post-data"><?php echo $post['price'];?></td>
+
+        <?php if( $this->session->userdata('user_role') == 1):?>
+          <td><a class="btn btn-small btn-warning"  href="<?php $id = $post["Id"]; echo Base_url('posts/editproduct/'.$id); ?>">EDIT</a> </td>
+          <td><a class="btn btn-small btn-danger" onclick="return deletefn()" href="<?php $id = $post["Id"]; echo Base_url('posts/deleteproduct/'.$id); ?>">DELETE</a></td>   
+        <?php endif; ?>
+          <td><a  class="btn btn-success" href="<?php $id = $post["Id"]; echo site_url('posts/viewdetails/'.$id); ?>">view</a></td>
+        </td>
+        </tr>
+      <?php endforeach; ?>
+   </tbody> -->
+
+
+//subcategory
+<!-- <tbody>
+    <?php foreach($posts as $post): ?>
+      <tr>
+          <td class="post-data">
+            <?php foreach( $categories as $result=>$category): ?>
+            <?php if( $result == $post['category_id'] ): ?><?php echo $category ?><?php endif; ?>
+            <?php endforeach?>
+          </td>
+          <td class="post-data"><?php echo $post['subcategoryname'];?></td> 
+          <?php if( $this->session->userdata('user_role') == 1):?>
+            <td><a class="btn btn-small btn-warning" href="<?php $id = $post["id"]; echo Base_url('posts/edit_subcategory/'.$id); ?>">EDIT</a></td> 
+            <td> <a class="btn btn-small btn-danger" onclick=" return deletefn()" href="<?php $id = $post["id"]; echo Base_url('posts/delete_subcategory/'.$id); ?>">DELETE</a>
+            </td>
+          <?php endif;?>
+      </tr>
+    <?php endforeach; ?>
+
+</tbody> -->
+
+//category
+<!-- <tbody>
+  <?php foreach($posts as $post): ?>
+    <tr>
+    <td class="post-data"><?php echo $post['categoryname'];?></td>
+      <?php if( $this->session->userdata('user_role') == 1):?>
+        <td><a class="btn btn-small btn-warning" href="<?php $id = $post["id"]; echo Base_url('posts/editcategory/'.$id); ?>">EDIT</a></td>
+        <td> <a class="btn btn-small btn-danger" onclick="return deletefn()" href="<?php $id = $post["id"]; echo Base_url('posts/deletecategory/'.$id); ?>">DELETE</a>
+      <?php endif;?>
+    </td>
+    </tr>
+  <?php endforeach; ?>
+</tbody> -->

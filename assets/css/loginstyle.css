@@ -1,0 +1,42 @@
+*{
+	color: white;
+}
+
+.row{
+	margin-right: 0;
+}
+body{
+	background-image: linear-gradient(90deg,#355ADD,#54ADDF);
+}
+
+.register{
+	margin: 6% 33%;
+	color: white;
+}
+
+#error{
+	color: red;
+	font-size: medium;
+}
+	
+#login{
+	margin: 4% 0 0 20%;
+	color: white;
+	margin-right: 0;
+}
+#signup{
+	text-align: center;
+	color: white;
+	margin-right: 0;
+}
+a{
+	text-decoration: none;
+	color: cyan;
+}
+
+a:hover{
+	text-decoration: none;
+	border-color: cyan;
+	color: white;
+}
+

@@ -1,0 +1,159 @@
+/* body{
+  background: #76a068;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  color: rgb(255, 255, 255);
+  
+} */
+
+/* start nav bar style */
+ul{
+  list-style-type: none;
+  display: flex;
+  }
+
+li a{
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 22px 24px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: white;    
+  text-decoration: none;
+  color:  rgb(119, 161, 41);
+}
+
+#navigation{
+  background-color: rgb(119, 161, 41);
+  margin-right: 0;
+}
+/* end nav bar style */
+
+/* start table style common table style */
+table {
+  border-collapse: collapse;
+  width: 90%;
+  /* background: rgb(180, 175, 175)  ; */
+}
+
+td, th {
+  border: 1px solid #c45d59;
+  text-align: left;
+  padding: 15px !important;
+}
+
+tr:first-child {
+  background-color: #a7b1a4;
+}
+/* end table style common table style */
+
+/* start category table and subcategory table style and edit comment*/
+.categorytable{
+  width: 500px;
+  margin-left: 25%;
+}
+
+
+.subtable{
+  width: 500px;
+  margin-left: 28%;
+}
+
+#editComment{
+  color: black;
+}
+/* end category table and subcategory table style and edit comment*/
+
+/* style for input boxes, textarea, select  */
+input[type=text], input[type=email], input[type=password], input[type=number], textarea, select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #a1a3a3;
+  border-radius: 4px;
+  color: #2e2e2e;
+  transition: box-shadow 0.3s;
+}
+input[type=file] {
+  margin:12px 12px 12px 0;
+}
+
+/* Add product form style */
+/* edit product form style */
+.productform{
+  margin: 4% 33%;
+}
+
+
+/* Add subcategory form style */
+/* edit subcategory form style */
+#subform{
+  margin-top: 4%;
+  margin-left: 28%;
+}
+
+
+/* Add category form style */
+/* edit category form style */
+.categoryform{
+  margin-top: 4%;
+ margin-left: 34%;
+}
+
+/* display product */
+.product{
+   margin: 50px 0px 0px 50px; 
+}
+
+/* view product style */
+.card{
+box-shadow: 0 4px 8px 0 rgba(224, 67, 67, 0.2);
+max-width: 600px;
+margin: auto;
+text-align: center;
+}
+
+.card h1,h4{
+  color: rgb(3, 3, 3);
+}
+
+.card #text{
+  color: #c45d59;
+  font-size: 16px;
+}
+
+.card img{
+  width: 300px;
+  height: 300px;
+}
+
+/* error style */
+#error{
+  color: red;
+}
+
+/* pagination style */
+.pagination-link {
+  text-align: right;
+}
+
+a.pagination-link {
+  padding: 8px 13px;
+  margin: 5px;
+  background: #f4f4f4;
+  border: 1px solid #ccc solid;
+}
+/* end of pagination style */
+
+/* style for product table ,category table and subcategory table  */
+#product_table{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#category_table,#subcategory_table{
+  width: 800px;
+  margin-left: 20%;
+}
