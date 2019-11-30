@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="<?php echo site_url()."assets/css/bootstrap.min.css"?>"/>
     <link rel="stylesheet" type="text/css" href="<?php echo site_url()."assets/DataTables/css/jquery.dataTables.min.css"?>"/>
-
+<title>SHOPPING</title>
     <!-- <script src="http://cdn.ckeditor.com/4.13.0/standard/ckeditor.js"></script> -->
     <link href="<?php echo site_url()."assets/css/style.css"?>" rel="stylesheet" type="text/css" media="all"/>
 </head>
